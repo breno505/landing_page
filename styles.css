@@ -14,13 +14,14 @@ body {
 img {
     width: 150px;
     height: 150px;
+    max-width: 100%;
 }
 
 /* Estilo do Header */
 header {
     background-color: whitesmoke;
     color: rgb(70, 70, 70);
-    padding: 16;
+    padding: 8px;
     margin: 0;
     text-align: center;
     display: flex;
@@ -57,12 +58,14 @@ nav a {
     padding: 20px;
     background-color: whitesmoke;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 52px;
 }
 
 .product {
     max-width: 200px;
+    flex-wrap: wrap;
 }
 
 button {
